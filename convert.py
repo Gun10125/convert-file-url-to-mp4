@@ -6,7 +6,7 @@ def download_youtube_mp4(url, resolution='720'):
     format_str = f'bestvideo[height<={resolution}]+bestaudio/best[height<={resolution}]'
 
     # Create output directory if it doesn't exist
-    output_dir = r'C:\Users\ASUS\Pictures\video'
+    output_dir = r'Your Directory'
     os.makedirs(output_dir, exist_ok=True)
 
     ydl_opts = {
